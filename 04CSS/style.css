@@ -32,7 +32,13 @@ span{
  }
 
  .btn{
+    text-align: center;
+    text-transform: uppercase;
     border: 2px solid #1f1f1f;
     border-radius: 0.3em;
+    color: #1f1f1f;
     font-size: 15px;
+    font-weight: 100;
+    padding: 0.5em 2em;
+    cursor: pointer ;
  }
