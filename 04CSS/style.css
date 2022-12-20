@@ -44,3 +44,7 @@ span{
     font-family: "Montserrat";
     font-weight: 800;
  }
+
+ .btn:hover{
+    color: #fff;
+ }
