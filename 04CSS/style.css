@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.cpm/css2?family=Montserrat:wght@400;900;300");
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    color: #fff;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 2%;
+    font-family: "Monteserrat";
+}
+
+h3{
+    text-align: center;
+}
+
+span{
+    color: black;
+    font-size: 70px;
+}
