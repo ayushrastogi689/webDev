@@ -32,6 +32,7 @@ span{
  }
 
  .btn{
+    background: transparent;
     text-align: center;
     text-transform: uppercase;
     border: 2px solid #1f1f1f;
@@ -47,4 +48,5 @@ span{
 
  .btn:hover{
     color: #fff;
+    outline: 0;
  }
