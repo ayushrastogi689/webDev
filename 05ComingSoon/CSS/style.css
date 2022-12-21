@@ -42,3 +42,9 @@ img {
   margin-bottom: 30px; */
   margin: 30px auto;
 }
+
+.banner {
+    background-color: var(--white);
+    padding-bottom: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  }
