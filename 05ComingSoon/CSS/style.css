@@ -48,3 +48,10 @@ img {
     padding-bottom: 30px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
   }
+  
+.text-container {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+  
