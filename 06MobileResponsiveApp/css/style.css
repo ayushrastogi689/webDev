@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.cpm/css2?family=Montserrat:wght@400;900;300");
+
+/*Added a gradient color to Whole page*/
+body{
+    font-family: sans-serif;
+    background: linear-gradient(to right, #33ccff 0%, #3a47d5 100%);
+    color: #fff;
+}
+
+/*Targetting h1 tag element and adding properties to font*/
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 2%;
+    font-family: "Monteserrat";
+}
+
+/* Similarly Targeting h3 tag */
+h3{
+    text-align: center;
+}
+/* Adding a diiferent color to a word present in h3 tag, using span tag*/
+span{
+    color: black;
+    font-size: 70px;
+}
+
+/* Adding button parameters*/
+ button{
+    margin: auto;
+    display: block;
+ }
+
+ .btn{
+    background: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #1f1f1f;
+    border-radius: 0.3em;
+    color: #1f1f1f;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0.5em 2em;
+    cursor: pointer ;
+    font-family: "Montserrat";
+    font-weight: 800;
+ }
+
+ .btn:hover{
+    color: #fff;
+    outline: 0;
+ }
