@@ -50,3 +50,17 @@ span{
     color: #fff;
     outline: 0;
  }
+/*Added a media query - basically we can over-ride the pre-defined properties*/
+ @media screen and (max-width: 800px) {
+    body{
+        background-color: cornflowerblue;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    span{
+        font-size: 50px;
+    }
+ }
