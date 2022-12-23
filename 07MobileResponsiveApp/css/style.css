@@ -19,6 +19,13 @@ nav{
     display: flex;
     flex: 1;
 }
+.brand-img img{
+    height: 80px;
+}
+
+.nav-logo{
+    display: block;
+}
 
 .nav-items{
     display: flex;
