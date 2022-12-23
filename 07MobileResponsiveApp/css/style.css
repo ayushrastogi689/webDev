@@ -9,7 +9,21 @@ body{
     margin: 0 5%;
 }
 
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+
 .brand-img{
     display: flex;
     flex: 1;
+}
+
+.nav-items{
+    display: flex;
+    flex: 2;   
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
 }
