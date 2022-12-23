@@ -1,6 +1,15 @@
+/*Inside background-image we can  put any url either web or local */
+
 body{
+
     background-image: url(../images/bg.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
+    margin: 0 5%;
+}
+
+.brand-img{
+    display: flex;
+    flex: 1;
 }
