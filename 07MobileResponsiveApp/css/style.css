@@ -27,3 +27,13 @@ nav{
     align-items: center;
     list-style-type: none;
 }
+
+.nav-link{
+    text-decoration: none ;
+    color: #fff;
+    font-size: 25px;
+}
+
+.nav-menu-icon{
+    display: none;
+}
