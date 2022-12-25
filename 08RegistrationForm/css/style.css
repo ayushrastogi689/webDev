@@ -36,3 +36,18 @@
   .mockup{
     height: 500px;
   }
+
+  .form{
+    width: 100%;
+  }
+
+  .flex-column{
+    flex-direction: column;
+  }
+
+  .form-section{
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    width: 75%;
+  }
