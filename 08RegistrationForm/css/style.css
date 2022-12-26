@@ -105,3 +105,20 @@
 .btn-twitter{
   background-color: #009fe9;
 }
+
+@media screen and (max-width: 600px) {
+  .form-section{
+    padding: 20px 30px;
+  }
+  .row{
+    flex-direction: column;
+  }
+
+  .mockup{
+    display: none;
+  }
+
+  main{
+    grid-template-columns: 1fr;
+  }
+}
