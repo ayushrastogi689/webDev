@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(90deg, #00d2ff, #3a47d5 100%);
+    color: #fff;
+}
+
+.container{
+    height: 100vh;
+    width: 100vh;
+}
+
+.wrapper{
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.left .right{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    animation: pump 1.5s linear delay infinite direction fill-mode;
+}
