@@ -51,3 +51,14 @@
     margin-top: 50px;
     width: 75%;
   }
+
+  .form-section h1{
+    font-size: 40px;
+    margin: 25px;
+    color: #343333;
+    text-transform: capitalize;
+  }
+
+  input{
+    
+  }
