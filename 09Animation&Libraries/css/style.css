@@ -5,23 +5,26 @@ body{
 
 .container{
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
 }
 
 .wrapper{
     margin: 0 auto;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 400px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border: 3px solid black;
 }
 
-.left .right{
+.left, .right{
     height: 100px;
     width: 100px;
     background-color: #fff;
-    animation: pump 1.5s linear delay infinite direction fill-mode;
+    animation: pump 1.5s linear infinite left right;
+}
+
+@keyframes pump {
+    
 }
