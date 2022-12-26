@@ -61,10 +61,14 @@
   }
 
   input{
+    width: 100%;
     font-size: 20px;
     padding: 10px 30px;
-    border-radius: 1px solid #a7a7a7;
+    border: 1px solid #a7a7a7;
+    border-radius: 8px;
     margin-bottom: 15px;
+    margin: 6px 6px;
+    margin: 0 6px 10px 6px;
   }
 
   .row{
@@ -78,9 +82,26 @@
     padding: 10px 0px;
     font-size: 20px;
     color: #fff;
-    background-color: #f59ef5;
+    background-color: #f59e2e;
     border: none;
     outline: none;
+    margin-top: 10px;
     margin-bottom: 15px;
     border-radius: 8px;
   }
+
+  .margin-10{
+
+  }
+
+  .btn:hover{
+    background-color: gray;
+  }
+
+.btn-facebook{
+  background-color: #354c8d ;
+}
+
+.btn-twitter{
+  background-color: #009fe9;
+}
