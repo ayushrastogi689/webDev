@@ -13,3 +13,10 @@ header{
     background-position: top;
     clip-path: polygon(100% 0, 100% 38%, 86% 70%, 0 53%, 0 0);
 }
+
+header h1 {
+    color: #fff;
+    font-size: 70px;
+    padding-top: 15%;
+    padding-left: 15%;
+  }
