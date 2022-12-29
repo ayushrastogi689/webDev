@@ -28,11 +28,6 @@ body{
     padding-inline: var(--padding-inline-section);
 }
 
-.small-bold-text{
-    font-size: 1rem;
-    font-weight: 700;
-}
-
 h1{
     font-size: 3rem;
 }
@@ -55,5 +50,21 @@ p{
 a{
     text-decoration: none;
     display: inline-block;
+}
+
+/* Utility classes */
+
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url(../assests/asset\ 32.png);
+    background-size: 300px;
+}
+
+.banner-text{
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
 }
 
