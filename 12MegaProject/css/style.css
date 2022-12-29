@@ -20,6 +20,12 @@ body{
     color: var(--primary-text-color);
 }
 
+.container{
+    max-width: 1180px;
+    margin-inline: auto ;
+    padding-inline: var(--padding-inline-section);
+}
+
 h1{
     font-size: 3rem;
 }
