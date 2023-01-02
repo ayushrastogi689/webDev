@@ -73,10 +73,19 @@ ul{
 }
 
 .primary-button:hover{
-    
+    background-color: var(--accent-color-dark);
 }
 .secondary-button{
+ border: 0.5px solid var(--secondary-text-color);
+ border-radius: 6px;
+ font-weight: 700;
+ color: var(--primary-text-color) !important;
+ padding: 12px 24px;
+ transition: 0.2s ease-out;
+}
 
+.secondary-button:hover{
+    border-color: var(--accent-color);
 }
 
 /* Top banner */
