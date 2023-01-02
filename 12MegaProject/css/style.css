@@ -52,7 +52,15 @@ a{
     display: inline-block;
 }
 
+ul{
+    list-style: none;
+}
+
 /* Utility classes */
+.flex{
+    display: flex;
+    align-items: center;
+}
 
 .top-banner{
     background-color: #4fb3d4;
@@ -68,3 +76,11 @@ a{
     text-align: center;
 }
 
+/* Nav bar */
+.main-nav{
+
+}
+
+.company-logo img{
+    
+}
