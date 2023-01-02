@@ -78,9 +78,9 @@ ul{
 
 /* Nav bar */
 .main-nav{
-
+ justify-content: space-between;
 }
 
 .company-logo img{
-    
+ width: 200px;
 }
