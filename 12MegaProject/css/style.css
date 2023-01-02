@@ -52,15 +52,34 @@ a{
     display: inline-block;
 }
 
+/* Utility classes */
 ul{
     list-style: none;
 }
 
-/* Utility classes */
 .flex{
     display: flex;
     align-items: center;
 }
+
+.primary-button{
+ background-color: var(--accent-color);
+ border-radius: 6px;
+ font-weight: 700;
+ color: white !important;
+ padding: 12px 24px;
+ box-shadow: 0 0 2px var(--secondary-text-color);
+ transition: 0.2s ease-out;
+}
+
+.primary-button:hover{
+    
+}
+.secondary-button{
+
+}
+
+/* Top banner */
 
 .top-banner{
     background-color: #4fb3d4;
