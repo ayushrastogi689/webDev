@@ -94,3 +94,12 @@ ul{
  justify-content: end;
  gap: 40px;
 }
+
+.hover-links{
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-links:hover{
+    color: var(--accent-color);
+}
