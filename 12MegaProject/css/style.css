@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap");
 
 /* Reset classes */
 *{
@@ -86,6 +86,7 @@ ul{
 
 .secondary-button:hover{
     border-color: var(--accent-color);
+    color: var(--accent-color) !important;
 }
 
 /* Top banner */
