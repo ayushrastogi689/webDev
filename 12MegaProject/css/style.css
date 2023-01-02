@@ -53,6 +53,10 @@ a{
 }
 
 /* Utility classes */
+.small-bold-text{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
 ul{
     list-style: none;
 }
@@ -158,4 +162,35 @@ header{
 
 .header-right img{
     width: 600px;
+}
+
+/* Companies header */
+
+.companies-header{
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+}
+
+.logo{
+ height: 46px;
+}
+
+.logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Features section */
+.features-section{
+    padding: 80px var(--padding-inline-section);
+
+}
+
+.features-header{
+    text-align: center;
+}
+
+.features-heading-text{
+    margin-bottom: 20px;
 }
