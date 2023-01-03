@@ -194,3 +194,8 @@ header{
 .features-heading-text{
     margin-bottom: 20px;
 }
+
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+}
