@@ -197,10 +197,13 @@ header{
 
 .features-area{
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .features-card{
     flex-direction: column;
+    text-align: center;
     gap: 20px;
     max-width: 30%;
 }
