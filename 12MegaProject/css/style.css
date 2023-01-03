@@ -195,7 +195,12 @@ header{
     margin-bottom: 20px;
 }
 
+.features-area{
+    flex-wrap: wrap;
+}
+
 .features-card{
     flex-direction: column;
     gap: 20px;
+    max-width: 30%;
 }
