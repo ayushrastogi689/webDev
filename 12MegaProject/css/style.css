@@ -97,7 +97,7 @@ ul{
 
 .top-banner{
     background-color: #4fb3d4;
-    background-image: url(../assests/asset\ 32.png);
+    background-image: url(../assets/asset\ 32.png);
     background-size: 300px;
 }
 
@@ -184,7 +184,7 @@ header{
 /* Features section */
 .features-section{
     padding: 80px var(--padding-inline-section);
-
+    background-image: url(../assets/);
 }
 
 .features-header{
