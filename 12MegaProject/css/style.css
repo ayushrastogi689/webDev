@@ -207,3 +207,20 @@ header{
     gap: 20px;
     max-width: 30%;
 }
+
+.big-feature-section{
+    padding: 30px var(--padding-inline-section) ;
+}
+
+.big-feature-container{
+    gap: 30px;
+}
+
+.feature-image img{
+    width: 100%;
+}
+
+.feature-desc{
+    flex-direction: column ;
+    align-items: flex-start;
+}
