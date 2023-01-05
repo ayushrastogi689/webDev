@@ -224,3 +224,17 @@ header{
     flex-direction: column ;
     align-items: flex-start;
 }
+
+/*Examples -section*/
+
+.examples-header{
+  flex-direction: column;
+  gap: 20px;
+}
+
+.examples-card{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: black;
+}
