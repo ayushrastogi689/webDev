@@ -272,3 +272,21 @@ background-size: cover;
     right: 20px;
     color: white;
 }
+
+/* cta section */
+
+.cta-section{
+    padding: 120px var(--padding-inline-section) 80px;
+    background-color: #183b54;
+}
+
+.cta-section-container{
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.cta-section-container p{
+    color: white;
+    margin-top: 15px;
+}
