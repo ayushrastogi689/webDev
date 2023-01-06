@@ -207,7 +207,7 @@ header{
     gap: 20px;
     max-width: 30%;
 }
-
+/* Big feature section */
 .big-feature-section{
     padding: 30px var(--padding-inline-section) ;
 }
@@ -232,11 +232,16 @@ header{
   gap: 20px;
 }
 
+.examples-area{
+    margin-block: 30px;
+    justify-content: space-between;
+}
 .examples-card{
     width: 23%;
     position: relative;
     min-height: 300px;
     background: black;
+    background: linear-gradient(rgb(0, 0, 0, 0.1) rgb(0, 0, 0, 0.8)), url(./assets/asset\ 35.jpeg);
 }
 
 .card-text {
