@@ -290,3 +290,17 @@ background-size: cover;
     color: white;
     margin-top: 15px;
 }
+
+/* footer section*/
+
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+    
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.
