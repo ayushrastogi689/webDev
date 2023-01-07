@@ -293,14 +293,18 @@ background-size: cover;
 
 /* footer section*/
 
+.footer{
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
 .footer-container{
     align-items: flex-start;
     justify-content: space-between;
-    
+}
 
 .link-column{
     flex-direction: column;
     align-items: flex-start;
+    gap: 20px;
 }
-
-.
