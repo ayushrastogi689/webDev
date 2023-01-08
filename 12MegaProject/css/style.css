@@ -308,3 +308,9 @@ background-size: cover;
     align-items: flex-start;
     gap: 20px;
 }
+
+/* Sub-footer section */
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
+}
