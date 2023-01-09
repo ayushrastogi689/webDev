@@ -167,7 +167,7 @@ header{
 }
 
 .header-right img{
-    width: 600px;
+    width: 100%;
 }
 
 /* Companies header */
@@ -179,12 +179,13 @@ header{
 }
 
 .logo{
- height: 46px;
+    height: 46px;
 }
 
 .logos{
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 /* Features section */
@@ -332,6 +333,8 @@ background-size: cover;
     .nav-links{
         display: none;
     }
+    
+    .header-
     
     .examples-card{
         width: calc(50% -10px);
