@@ -325,6 +325,10 @@ background-size: cover;
 }
 
 @media screen and (max-width: 991px) { 
+    h3 {
+        font-size: 1.2 rem;
+    }
+    
     .nav-toggle {
         display: block;
         margin-right: 20px;
@@ -343,5 +347,16 @@ background-size: cover;
     
     .cta-section {
         padding-block: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-section {
+        flex-direction: column-reverse;
+    }
+    
+    .header-left {
+        max-width: 100vw;
+        text-align: center;
     }
 }
