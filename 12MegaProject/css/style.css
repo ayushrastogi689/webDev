@@ -337,4 +337,8 @@ background-size: cover;
         width: calc(50% -10px);
         height: 230px;
     }
+    
+    .cta-section {
+        padding-block: 80px;
+    }
 }
