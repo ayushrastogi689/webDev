@@ -122,6 +122,7 @@ ul{
 
 .nav-links{
     flex-basis: 730px;
+    display: none;
 }
 
 .nav-links ul{
@@ -136,6 +137,10 @@ ul{
 
 .hover-links:hover{
     color: var(--accent-color);
+}
+
+.nav-toggle{
+    display: none;
 }
 
 /* Header section */
@@ -315,3 +320,9 @@ background-size: cover;
     justify-content: center;
     gap: 30px;
 }
+
+@media screen and (max-width: 991px) { 
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
