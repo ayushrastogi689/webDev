@@ -351,6 +351,12 @@ background-size: cover;
 }
 
 @media screen and (max-width: 767px) {
+    
+    primary-button{
+        width: 50%;
+        text-align: center;
+    }
+    
     .header-section {
         flex-direction: column-reverse;
     }
