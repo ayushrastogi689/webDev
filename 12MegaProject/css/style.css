@@ -77,10 +77,10 @@ ul{
  transition: 0.2s ease-out;
 }
 
-.primary-button:hover{
+.primary-button:hover {
     background-color: var(--accent-color-dark);
 }
-.secondary-button{
+.secondary-button {
  border: 0.5px solid var(--secondary-text-color);
  border-radius: 6px;
  font-weight: 700;
@@ -89,20 +89,20 @@ ul{
  transition: 0.2s ease-out;
 }
 
-.secondary-button:hover{
+.secondary-button:hover {
     border-color: var(--accent-color);
     color: var(--accent-color) !important;
 }
 
 /* Top banner */
 
-.top-banner{
+.top-banner {
     background-color: #4fb3d4;
     background-image: url(../assets/asset\ 32.png);
     background-size: 300px;
 }
 
-.banner-text{
+.banner-text {
     color: #fff;
     padding: 10px 30px;
     font-size: 1.2rem;
@@ -111,45 +111,45 @@ ul{
 }
 
 /* Nav bar */
-.main-nav{
+.main-nav {
     margin-top: 20px;
  justify-content: space-between;
 }
 
-.company-logo img{
+.company-logo img {
  width: 200px;
 }
 
-.nav-links{
+.nav-links {
     flex-basis: 730px;
     display: none;
 }
 
-.nav-links ul{
+.nav-links ul {
  justify-content: end;
  gap: 40px;
 }
 
-.hover-links{
+.hover-links {
     color: var(--primary-text-color);
     transition: 0.2s ease-out;
 }
 
-.hover-links:hover{
+.hover-links:hover {
     color: var(--accent-color);
 }
 
-.nav-toggle{
+.nav-toggle {
     display: none;
 }
 
 /* Header section */
 
-header{
+header {
     padding: 50px var(--padding-inline-section);
 }
 
-.header-section{
+.header-section {
     justify-content: center;
     gap: 50px;
 }
@@ -158,57 +158,57 @@ header{
     max-width: 40vw;
 }
 
-.header-left h1{
+.header-left h1 {
     margin-top: 20px;
 }
 
-.get-started-btn{
+.get-started-btn {
     margin-top: 20px;
 }
 
-.header-right img{
+.header-right img {
     width: 100%;
 }
 
 /* Companies header */
 
-.companies-header{
+.companies-header {
     text-align: center;
     margin-block: 30px;
     color: var(--primary-text-color);
 }
 
-.logo{
+.logo {
     height: 46px;
 }
 
-.logos{
+.logos {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 /* Features section */
-.features-section{
+.features-section {
     padding: 80px var(--padding-inline-section);
     background-image: url();
 }
 
-.features-header{
+.features-header {
     text-align: center;
 }
 
-.features-heading-text{
+.features-heading-text {
     margin-bottom: 20px;
 }
 
-.features-area{
+.features-area {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 40px;
 }
 
-.features-card{
+.features-card {
     flex-direction: column;
     text-align: center;
     gap: 20px;
@@ -219,15 +219,15 @@ header{
     padding: 30px var(--padding-inline-section) ;
 }
 
-.big-feature-container{
+.big-feature-container {
     gap: 30px;
 }
 
-.feature-image img{
+.feature-image img {
     width: 100%;
 }
 
-.feature-desc{
+.feature-desc {
     flex-direction: column ;
     align-items: flex-start;
 }
@@ -238,9 +238,10 @@ header{
     padding: 80px var(--padding-inline-section);
 }
 
-.examples-header{
-  flex-direction: column;
-  gap: 20px;
+.examples-header {
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .examples-area{
@@ -260,18 +261,18 @@ header{
 }
 
 .examples-card:nth-child(2) {
-background: linear-gradient(rgb(0, 0, 0, 0.1) rgb(0, 0, 0, 0.8)), url(./assets/asset\ 35.jpeg);
-background-size: cover;
+    background: linear-gradient(rgb(0, 0, 0, 0.1) rgb(0, 0, 0, 0.8)), url(./assets/asset\ 35.jpeg);
+    background-size: cover;
 }
 
 .examples-card:nth-child(3) {
-background: linear-gradient(rgb(0, 0, 0, 0.1) rgb(0, 0, 0, 0.8)), url(./assets/asset\ 36.jpeg);
-background-size: cover;
+    background: linear-gradient(rgb(0, 0, 0, 0.1) rgb(0, 0, 0, 0.8)), url(./assets/asset\ 36.jpeg);
+    background-size: cover;
 }
 
 .examples-card:nth-child(4) {
-background: linear-gradient(rgb(0, 0, 0, 0.1) rgb(0, 0, 0, 0.8)), url(./assets/asset\ 37.jpeg);
-background-size: cover;
+    background: linear-gradient(rgb(0, 0, 0, 0.1) rgb(0, 0, 0, 0.8)), url(./assets/asset\ 37.jpeg);
+    background-size: cover;
 }
 
 .examples-card:hover{
