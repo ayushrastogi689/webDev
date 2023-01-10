@@ -234,6 +234,10 @@ header{
 
 /*Examples -section*/
 
+.examples-section {
+    padding: 80px var(--padding-inline-section);
+}
+
 .examples-header{
   flex-direction: column;
   gap: 20px;
@@ -366,11 +370,11 @@ background-size: cover;
         text-align: center;
     }
     
-    .features-card{
+    .features-card {
         min-width: calc(50% - 10px);
     }
     
-    .big-feature-section{
+    .big-feature-section {
         flex-direction: column;
     }
 }
