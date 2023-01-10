@@ -264,12 +264,12 @@ background: linear-gradient(rgb(0, 0, 0, 0.1) rgb(0, 0, 0, 0.8)), url(./assets/a
 background-size: cover;
 }
 
-.examples-card:nth-child(3){
+.examples-card:nth-child(3) {
 background: linear-gradient(rgb(0, 0, 0, 0.1) rgb(0, 0, 0, 0.8)), url(./assets/asset\ 36.jpeg);
 background-size: cover;
 }
 
-.examples-card:nth-child(4){
+.examples-card:nth-child(4) {
 background: linear-gradient(rgb(0, 0, 0, 0.1) rgb(0, 0, 0, 0.8)), url(./assets/asset\ 37.jpeg);
 background-size: cover;
 }
@@ -323,7 +323,8 @@ background-size: cover;
 }
 
 /* Sub-footer section */
-.subfooter-container{
+.subfooter-container {
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
 }
