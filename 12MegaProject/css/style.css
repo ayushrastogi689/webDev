@@ -377,4 +377,14 @@ background-size: cover;
     .big-feature-section {
         flex-direction: column;
     }
+    
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .link-columns{
+        align-items:stretch;
+    }
 }
