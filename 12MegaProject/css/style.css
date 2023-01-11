@@ -298,6 +298,7 @@ header {
     flex-direction: column;
     gap: 30px;
     color: white;
+    text-align: center;
 }
 
 .cta-section-container p{
@@ -415,8 +416,11 @@ header {
         .features-card {
             min-width: calc(50%-10px);
         }
+        
         .examples-card {
             width: 100%;
         }
+        
+        
     }
 }
