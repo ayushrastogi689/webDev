@@ -113,7 +113,8 @@ ul{
 /* Nav bar */
 .main-nav {
     margin-top: 20px;
- justify-content: space-between;
+    justify-content: space-between;
+    position: relative;
 }
 
 .company-logo img {
@@ -336,16 +337,24 @@ header {
         font-size: 1.2 rem;
     }
     
+    .main-nav {
+        overflow: initial;
+    }
+    
     .nav-toggle {
         display: block;
         margin-right: 20px;
     }
     
     .nav-links{
-        display: none;
+        position: absolute;
+        background-color: white;
+        right: 0;
     }
     
-    .header-
+    .nav-links ul {
+        flex-direction: column;
+    }
     
     .examples-card{
         width: calc(50% -10px);
@@ -420,7 +429,6 @@ header {
         .examples-card {
             width: 100%;
         }
-        
         
     }
 }
