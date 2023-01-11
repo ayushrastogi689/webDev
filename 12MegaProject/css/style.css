@@ -411,5 +411,12 @@ header {
         p {
             font-size: 1rem;   
         }
+        
+        .features-card {
+            min-width: calc(50%-10px);
+        }
+        .examples-card {
+            width: 100%;
+        }
     }
 }
