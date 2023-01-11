@@ -349,7 +349,10 @@ header {
     .nav-links{
         position: absolute;
         background-color: white;
-        right: 0;
+        right: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
     }
     
     .nav-links ul {
