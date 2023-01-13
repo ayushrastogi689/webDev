@@ -130,12 +130,12 @@ ul{
  gap: 40px;
 }
 
-.hover-links {
+.hover-link {
     color: var(--primary-text-color);
     transition: 0.2s ease-out;
 }
 
-.hover-links:hover {
+.hover-link:hover {
     color: var(--accent-color);
 }
 
