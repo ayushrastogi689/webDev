@@ -420,7 +420,7 @@ header {
     @media screen and (max-width: 479px) {
         
         :root {
-            --padding-inline-section;   
+            --padding-inline-section: 20px;   
         }
         
         h1 {
