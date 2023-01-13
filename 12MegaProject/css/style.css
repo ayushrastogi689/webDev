@@ -202,6 +202,11 @@ header {
     margin-bottom: 20px;
 }
 
+
+.secondary-margin{
+    margin-bottom: 40px;
+}
+
 .features-area {
     flex-wrap: wrap;
     justify-content: space-between;
