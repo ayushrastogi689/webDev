@@ -249,6 +249,10 @@ header {
     gap: 20px;
 }
 
+.examples-heading-text{
+    margin-bottom: 20px;
+}
+
 .examples-area{
     margin-block: 30px;
     justify-content: space-between;
