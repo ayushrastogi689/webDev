@@ -191,7 +191,9 @@ header {
 /* Features section */
 .features-section {
     padding: 80px var(--padding-inline-section);
-    background-image: url();
+    background-image: url(../assets/asset\ 41.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .features-header {
