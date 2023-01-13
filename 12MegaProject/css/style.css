@@ -307,7 +307,7 @@ header {
 /* cta section */
 
 .cta-section{
-    padding: 120px var(--padding-inline-section) 80px;
+    padding: 30px var(--padding-inline-section) 40px;
     background-color: #183b54;
 }
 
@@ -316,11 +316,13 @@ header {
     gap: 30px;
     color: white;
     text-align: center;
+    align-items: center;
 }
 
 .cta-section-container p{
     color: white;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: center;
 }
 
 /* footer section*/
