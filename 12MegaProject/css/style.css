@@ -379,6 +379,10 @@ header {
         padding-block: 20px;
     }
     
+    .nav-links.active {
+        left: 0;
+    }
+    
     .nav-links ul {
         flex-direction: column;
     }
