@@ -344,6 +344,12 @@ header {
 }
 
 /* Sub-footer section */
+
+.subfooter{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
 .subfooter-container {
     flex-wrap: wrap;
     justify-content: center;
